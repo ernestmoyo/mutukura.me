@@ -24,13 +24,16 @@ function SlideContent({ slide, showNotes }: { slide: typeof defenseSlides[0]; sh
         <h1 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 900, fontSize: 'clamp(1.4rem, 3.5vw, 2.6rem)', color: 'white', lineHeight: 1.2, maxWidth: '800px', marginBottom: '1.5rem' }}>
           {slide.title}
         </h1>
-        <div style={{ width: '60px', height: '3px', backgroundColor: '#c9a84c', marginBottom: '1.5rem' }} />
+        <div style={{ width: '60px', height: '3px', backgroundColor: '#E61E2A', marginBottom: '1.5rem' }} />
         <p style={{ fontFamily: 'Playfair Display, serif', fontStyle: 'italic', color: 'rgba(255,255,255,0.65)', fontSize: '1.1rem', marginBottom: '2.5rem' }}>
           {slide.subtitle}
         </p>
         <div style={{ backgroundColor: '#1e2a4a', padding: '1.25rem 2rem', borderRadius: '10px', border: '1px solid #2d3f6b' }}>
           <div style={{ fontWeight: 700, color: '#c9a84c', fontSize: '1.1rem', marginBottom: '4px' }}>Praise Mutukura</div>
           <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)' }}>PhD Candidate · RMIT University · College of Business & Law</div>
+        </div>
+        <div style={{ marginTop: '1.5rem', backgroundColor: 'rgba(239,68,68,0.12)', border: '1px solid rgba(239,68,68,0.35)', borderRadius: '8px', padding: '8px 20px', fontSize: '12px', fontWeight: 600, color: '#fca5a5', letterSpacing: '0.06em' }}>
+          ⚠ (Under Construction — Draft Version, Not for Distribution)
         </div>
         {showNotes && slide.notes && (
           <div style={{ marginTop: '2rem', backgroundColor: 'rgba(201,168,76,0.1)', padding: '1rem 1.5rem', borderRadius: '8px', border: '1px solid rgba(201,168,76,0.2)', maxWidth: '700px', textAlign: 'left' }}>
@@ -149,7 +152,7 @@ export default function Defense() {
   return (
     <div style={{
       position: 'fixed', inset: 0,
-      background: 'linear-gradient(135deg, #0a0f1e 0%, #0f172a 60%, #1e2a4a 100%)',
+      background: 'linear-gradient(135deg, #1a0a0b 0%, #1f1114 50%, #2a1018 100%)',
       display: 'flex',
       flexDirection: 'column',
       zIndex: 100,
@@ -160,17 +163,17 @@ export default function Defense() {
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: '12px 20px',
-        borderBottom: '1px solid #2d3f6b',
-        backgroundColor: 'rgba(10,15,30,0.9)',
+        borderBottom: '3px solid #E61E2A',
+        backgroundColor: 'rgba(10,5,5,0.95)',
         backdropFilter: 'blur(8px)',
         flexShrink: 0,
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <div style={{ width: '28px', height: '28px', borderRadius: '50%', backgroundColor: '#c9a84c', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '11px', color: '#0f172a' }}>
+          <div style={{ width: '28px', height: '28px', borderRadius: '4px', backgroundColor: '#E61E2A', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '11px', color: 'white' }}>
             PM
           </div>
-          <span style={{ fontSize: '13px', fontWeight: 600, color: 'rgba(255,255,255,0.7)' }}>
-            PhD Defense · Praise Mutukura
+          <span style={{ fontSize: '13px', fontWeight: 600, color: 'rgba(255,255,255,0.85)' }}>
+            PhD Defense · Praise Mutukura · <span style={{ color: '#E61E2A' }}>RMIT University</span>
           </span>
         </div>
 
@@ -220,6 +223,21 @@ export default function Defense() {
         </div>
       </div>
 
+      {/* Under Construction banner */}
+      <div style={{
+        backgroundColor: 'rgba(230,30,42,0.15)',
+        borderBottom: '1px solid rgba(230,30,42,0.3)',
+        padding: '5px 20px',
+        textAlign: 'center',
+        fontSize: '11px',
+        fontWeight: 700,
+        color: '#fca5a5',
+        letterSpacing: '0.08em',
+        flexShrink: 0,
+      }}>
+        ⚠ DRAFT — UNDER CONSTRUCTION — NOT FOR DISTRIBUTION ⚠
+      </div>
+
       {/* Slide area */}
       <div style={{ flex: 1, minHeight: 0, overflow: 'auto' }}>
         <SlideContent slide={slide} showNotes={showNotes} />
@@ -231,8 +249,8 @@ export default function Defense() {
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: '12px 20px',
-        borderTop: '1px solid #2d3f6b',
-        backgroundColor: 'rgba(10,15,30,0.9)',
+        borderTop: '1px solid rgba(230,30,42,0.3)',
+        backgroundColor: 'rgba(10,5,5,0.95)',
         backdropFilter: 'blur(8px)',
         flexShrink: 0,
         gap: '1rem',
@@ -267,7 +285,7 @@ export default function Defense() {
                 border: 'none',
                 cursor: 'pointer',
                 transition: 'all 0.2s',
-                backgroundColor: i === current ? '#c9a84c' : 'rgba(255,255,255,0.2)',
+                backgroundColor: i === current ? '#E61E2A' : 'rgba(255,255,255,0.2)',
                 padding: 0,
               }}
             />
@@ -284,8 +302,8 @@ export default function Defense() {
             style={{
               display: 'flex', alignItems: 'center', gap: '6px',
               padding: '8px 16px', borderRadius: '6px',
-              backgroundColor: current === total - 1 ? 'rgba(255,255,255,0.03)' : '#c9a84c',
-              color: current === total - 1 ? 'rgba(255,255,255,0.2)' : '#0f172a',
+              backgroundColor: current === total - 1 ? 'rgba(255,255,255,0.03)' : '#E61E2A',
+              color: current === total - 1 ? 'rgba(255,255,255,0.2)' : 'white',
               border: '1px solid transparent',
               cursor: current === total - 1 ? 'default' : 'pointer',
               fontSize: '13px', fontWeight: 700,
