@@ -21,7 +21,7 @@ export default function Research() {
       {/* Header */}
       <section style={{ background: 'linear-gradient(135deg, #0f172a, #1e2a4a)', padding: '4rem 1.5rem 3rem' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-          <div style={{ backgroundColor: 'rgba(201,168,76,0.15)', color: '#c9a84c', display: 'inline-block', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', border: '1px solid rgba(201,168,76,0.3)', marginBottom: '1.25rem' }}>
+          <div style={{ backgroundColor: 'rgba(0,0,0,0.35)', color: '#e2bc6b', display: 'inline-block', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', border: '1px solid rgba(201,168,76,0.5)', marginBottom: '1.25rem' }}>
             PhD Research · RMIT University
           </div>
           <h1 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 900, fontSize: 'clamp(1.6rem, 4vw, 2.5rem)', color: 'white', lineHeight: 1.2, marginBottom: '1rem' }}>
@@ -48,7 +48,7 @@ export default function Research() {
                 border: 'none',
                 borderBottom: tab === i ? '3px solid #c9a84c' : '3px solid transparent',
                 backgroundColor: 'transparent',
-                color: tab === i ? '#c9a84c' : '#64748b',
+                color: tab === i ? '#916d1a' : '#374151',
                 transition: 'all 0.2s',
                 whiteSpace: 'nowrap',
               }}
@@ -146,7 +146,7 @@ export default function Research() {
             <h2 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.5rem', color: '#0f172a', marginBottom: '0.75rem' }}>
               Theoretical Framework
             </h2>
-            <p style={{ color: '#64748b', fontSize: '15px', marginBottom: '2.5rem', lineHeight: 1.7 }}>
+            <p style={{ color: '#334155', fontSize: '15px', marginBottom: '2.5rem', lineHeight: 1.7 }}>
               The UNDP Human Development Report (1994) introduced a people-centred conception of security
               encompassing seven dimensions. This research applies all seven as an analytical lens to the
               Nyamakope community.
@@ -210,7 +210,7 @@ export default function Research() {
                   { label: 'Embassy Response', value: 'Non-interference invoked; declined mediating role' },
                 ].map(item => (
                   <div key={item.label} style={{ display: 'flex', gap: '1rem', borderBottom: '1px solid #f1f5f9', paddingBottom: '0.75rem' }}>
-                    <div style={{ minWidth: '140px', fontSize: '12px', fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{item.label}</div>
+                    <div style={{ minWidth: '140px', fontSize: '12px', fontWeight: 700, color: '#4b5563', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{item.label}</div>
                     <div style={{ fontSize: '14px', color: '#475569' }}>{item.value}</div>
                   </div>
                 ))}

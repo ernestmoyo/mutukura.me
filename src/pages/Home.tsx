@@ -49,7 +49,7 @@ export default function Home() {
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', width: '100%' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1.5rem' }}>
-            <span style={{ backgroundColor: 'rgba(201,168,76,0.15)', color: '#c9a84c', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', border: '1px solid rgba(201,168,76,0.3)' }}>
+            <span style={{ backgroundColor: 'rgba(0,0,0,0.35)', color: '#e2bc6b', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', border: '1px solid rgba(201,168,76,0.5)' }}>
               PhD Research · RMIT University · 2022–2026
             </span>
           </div>

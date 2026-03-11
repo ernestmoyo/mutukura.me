@@ -32,7 +32,7 @@ export default function About() {
             />
           </div>
           <div>
-            <div style={{ backgroundColor: 'rgba(201,168,76,0.15)', color: '#c9a84c', display: 'inline-block', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', border: '1px solid rgba(201,168,76,0.3)', marginBottom: '1rem' }}>
+            <div style={{ backgroundColor: 'rgba(0,0,0,0.35)', color: '#e2bc6b', display: 'inline-block', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', border: '1px solid rgba(201,168,76,0.5)', marginBottom: '1rem' }}>
               PhD Candidate · RMIT University
             </div>
             <h1 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 900, fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', color: 'white', marginBottom: '0.75rem' }}>

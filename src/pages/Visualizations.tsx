@@ -45,7 +45,7 @@ export default function Visualizations() {
       {/* Header */}
       <section style={{ background: 'linear-gradient(135deg, #0f172a, #1e2a4a)', padding: '4rem 1.5rem 3rem' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-          <div style={{ backgroundColor: 'rgba(201,168,76,0.15)', color: '#c9a84c', display: 'inline-block', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', border: '1px solid rgba(201,168,76,0.3)', marginBottom: '1.25rem' }}>
+          <div style={{ backgroundColor: 'rgba(0,0,0,0.35)', color: '#e2bc6b', display: 'inline-block', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 600, letterSpacing: '0.08em', border: '1px solid rgba(201,168,76,0.5)', marginBottom: '1.25rem' }}>
             Research Data · Interactive Visualisations
           </div>
           <h1 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 900, fontSize: 'clamp(1.6rem, 4vw, 2.5rem)', color: 'white', lineHeight: 1.2, marginBottom: '1rem' }}>

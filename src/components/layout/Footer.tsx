@@ -5,7 +5,7 @@ export default function Footer() {
   if (location.pathname === '/defense') return null;
 
   return (
-    <footer style={{ backgroundColor: '#0a0f1e', color: 'rgba(255,255,255,0.6)', padding: '3rem 1.5rem 2rem' }}>
+    <footer style={{ backgroundColor: '#0a0f1e', color: 'rgba(255,255,255,0.85)', padding: '3rem 1.5rem 2rem' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '2rem' }}>
         <div>
           <div style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '18px', color: '#c9a84c', marginBottom: '0.75rem' }}>
