@@ -27,7 +27,7 @@ export default function About() {
           <div>
             <img
               src="/praise.jpeg"
-              alt="Praise Mutukura"
+              alt="Kudakwashe Praise Mutukura"
               style={{ width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '4px solid #c9a84c', boxShadow: '0 8px 32px rgba(0,0,0,0.4)' }}
             />
           </div>
@@ -36,7 +36,7 @@ export default function About() {
               PhD Candidate · RMIT University
             </div>
             <h1 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 900, fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', color: 'white', marginBottom: '0.75rem' }}>
-              Praise Mutukura
+              Kudakwashe Praise Mutukura
             </h1>
             <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.65)', lineHeight: 1.7, maxWidth: '600px', marginBottom: '1.5rem' }}>
               Researcher in China-Africa relations and human security, investigating how China's
@@ -75,7 +75,7 @@ export default function About() {
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', fontSize: '15px', color: '#475569', lineHeight: 1.8 }}>
               <p>
-                Praise Mutukura is a PhD candidate at RMIT University, Melbourne, specialising in the intersection
+                Kudakwashe Praise Mutukura is a PhD candidate at RMIT University, Melbourne, specialising in the intersection
                 of Chinese foreign policy and human security in sub-Saharan Africa. His doctoral research examines
                 how China's principle of non-interference — a cornerstone of its diplomatic doctrine — affects the
                 lived security of communities impacted by Chinese investment in Zimbabwe.

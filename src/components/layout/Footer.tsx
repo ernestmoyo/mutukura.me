@@ -9,7 +9,7 @@ export default function Footer() {
       <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '2rem' }}>
         <div>
           <div style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '18px', color: '#c9a84c', marginBottom: '0.75rem' }}>
-            Praise Mutukura
+            Kudakwashe Praise Mutukura
           </div>
           <p style={{ fontSize: '13px', lineHeight: 1.6 }}>
             PhD Candidate, RMIT University<br />

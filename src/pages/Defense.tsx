@@ -29,7 +29,7 @@ function SlideContent({ slide, showNotes }: { slide: typeof defenseSlides[0]; sh
           {slide.subtitle}
         </p>
         <div style={{ backgroundColor: '#1e2a4a', padding: '1.25rem 2rem', borderRadius: '10px', border: '1px solid #2d3f6b' }}>
-          <div style={{ fontWeight: 700, color: '#c9a84c', fontSize: '1.1rem', marginBottom: '4px' }}>Praise Mutukura</div>
+          <div style={{ fontWeight: 700, color: '#c9a84c', fontSize: '1.1rem', marginBottom: '4px' }}>Kudakwashe Praise Mutukura</div>
           <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)' }}>PhD Candidate · RMIT University · College of Business & Law</div>
         </div>
         <div style={{ marginTop: '1.5rem', backgroundColor: 'rgba(239,68,68,0.12)', border: '1px solid rgba(239,68,68,0.35)', borderRadius: '8px', padding: '8px 20px', fontSize: '12px', fontWeight: 600, color: '#fca5a5', letterSpacing: '0.06em' }}>
