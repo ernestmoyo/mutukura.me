@@ -170,10 +170,10 @@ export default function Defense() {
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           <div style={{ width: '28px', height: '28px', borderRadius: '4px', backgroundColor: '#E61E2A', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '11px', color: 'white' }}>
-            PM
+            KPM
           </div>
           <span style={{ fontSize: '13px', fontWeight: 600, color: 'rgba(255,255,255,0.85)' }}>
-            PhD Defense · Praise Mutukura · <span style={{ color: '#E61E2A' }}>RMIT University</span>
+            PhD Defense · Kudakwashe Praise Mutukura · <span style={{ color: '#E61E2A' }}>RMIT University</span>
           </span>
         </div>
 

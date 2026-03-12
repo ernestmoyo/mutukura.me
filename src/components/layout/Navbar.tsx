@@ -43,10 +43,10 @@ export default function Navbar() {
         {/* Logo */}
         <NavLink to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
           <div style={{ width: '36px', height: '36px', borderRadius: '50%', backgroundColor: '#c9a84c', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '14px', color: '#0f172a' }}>
-            PM
+            KPM
           </div>
           <span style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '16px', color: 'white', letterSpacing: '0.02em' }}>
-            Praise Mutukura
+            Kudakwashe Praise Mutukura
           </span>
         </NavLink>
 

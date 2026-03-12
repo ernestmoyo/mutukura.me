@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
       </div>
       <div style={{ maxWidth: '1200px', margin: '2rem auto 0', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem', fontSize: '12px', textAlign: 'center' }}>
-        © {new Date().getFullYear()} Praise Mutukura · PhD Research Portfolio · RMIT University
+        © {new Date().getFullYear()} Kudakwashe Praise Mutukura · PhD Research Portfolio · RMIT University
       </div>
     </footer>
   );
