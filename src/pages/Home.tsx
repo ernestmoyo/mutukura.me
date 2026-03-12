@@ -11,12 +11,12 @@ const pillars = [
   {
     icon: '🔍',
     title: 'Case Study',
-    desc: 'Mutoko District — community displaced by Chinese granite mining operations',
+    desc: 'Mutoko District — community displaced by Chinese lithium mining operations',
   },
   {
     icon: '🏭',
     title: 'Focus Company',
-    desc: 'Jinding Mining Zimbabwe (Pvt) Ltd — Chinese-owned granite extraction, Mashonaland East',
+    desc: 'Lithium Mines — Chinese-owned lithium mining, Mashonaland East',
   },
   {
     icon: '📊',

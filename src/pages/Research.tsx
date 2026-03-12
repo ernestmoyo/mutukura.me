@@ -185,8 +185,8 @@ export default function Research() {
                   generational ties to the land — their primary source of livelihood and identity.
                 </p>
                 <p>
-                  In January 2022, Jinding Mining Zimbabwe (Pvt) Ltd — a Chinese-owned granite extraction
-                  company — initiated the forced displacement of multiple families to expand mining operations.
+                  In January 2022, a Chinese-owned lithium mining
+                  company initiated the forced displacement of multiple families to expand mining operations.
                   No meaningful community consultation was conducted prior to the displacement.
                 </p>
                 <p>
@@ -198,15 +198,15 @@ export default function Research() {
             </div>
             <div>
               <h2 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.5rem', color: '#0f172a', marginBottom: '1.5rem' }}>
-                Jinding Mining Zimbabwe
+                Lithium Mines
               </h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 {[
-                  { label: 'Company Type', value: 'Chinese-owned, granite extraction (commercial mining)' },
-                  { label: 'Operation', value: 'Quarrying and export of granite stone' },
+                  { label: 'Company Type', value: 'Chinese-owned, lithium mining (commercial mining)' },
+                  { label: 'Operation', value: 'Extraction and export of lithium' },
                   { label: 'Location', value: 'Mutoko District, Mashonaland East' },
                   { label: 'Key Incident', value: 'January 2022: forced displacement of farming households' },
-                  { label: 'Government Response', value: 'Minimal; ZANU-PF complicity reported by informants' },
+                  { label: 'Government Response', value: 'Minimal; ruling party complicity reported by informants' },
                   { label: 'Embassy Response', value: 'Non-interference invoked; declined mediating role' },
                 ].map(item => (
                   <div key={item.label} style={{ display: 'flex', gap: '1rem', borderBottom: '1px solid #f1f5f9', paddingBottom: '0.75rem' }}>

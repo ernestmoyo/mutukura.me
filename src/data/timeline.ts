@@ -16,7 +16,7 @@ export const academicTimeline: TimelineEvent[] = [
   {
     date: 'Jan 2022',
     title: 'Fieldwork Research Site Identified',
-    description: 'Identified Mutoko District as case study site following the January 2022 displacement incident involving Jinding Mining Zimbabwe.',
+    description: 'Identified Mutoko District as case study site following the January 2022 displacement incident involving a Chinese-owned lithium mining company.',
     type: 'fieldwork',
   },
   {

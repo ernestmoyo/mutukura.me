@@ -98,7 +98,7 @@ export default function Visualizations() {
           </ChartCard>
 
           <ChartCard
-            title="Mutoko Community: Before vs After Jinding Mining"
+            title="Mutoko Community: Before vs After Lithium Mining"
             subtitle="Key welfare indicators comparing pre- and post-displacement periods"
             source="Primary KII data, community records — Mutoko District, 2024"
             fullWidth

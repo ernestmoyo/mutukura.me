@@ -82,7 +82,7 @@ export default function About() {
               </p>
               <p>
                 His research is grounded in a detailed case study of Mutoko District, where
-                the operations of Jinding Mining Zimbabwe (Pvt) Ltd triggered the forced displacement of smallholder
+                the operations of a Chinese-owned lithium mining company triggered the forced displacement of smallholder
                 farming families in January 2022. Through 24 Key Informant Interviews with community members,
                 government officials, diplomats, trade unionists, and civil society representatives, Praise
                 reconstructs the human security consequences across all seven UNDP dimensions.

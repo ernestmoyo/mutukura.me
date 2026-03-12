@@ -30,7 +30,7 @@ export default function Footer() {
           <div style={{ fontWeight: 600, fontSize: '13px', color: 'white', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Case Study</div>
           <p style={{ fontSize: '13px', lineHeight: 1.8 }}>
             Mutoko District, Zimbabwe<br />
-            Jinding Mining Zimbabwe<br />
+            Lithium Mines<br />
             Mashonaland East Province
           </p>
         </div>

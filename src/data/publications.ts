@@ -17,8 +17,8 @@ export const publications: Publication[] = [
     year: 2023,
     type: 'thesis',
     status: 'in-progress',
-    tags: ['PhD Research', 'Non-Interference', 'Zimbabwe', 'Jinding Mining'],
+    tags: ['PhD Research', 'Non-Interference', 'Zimbabwe', 'Lithium Mining'],
     abstract:
-      "PhD thesis examining the impact of China's non-interference approach on human security in Zimbabwe through a qualitative case study of community displacement caused by Jinding Mining Zimbabwe in Mutoko District.",
+      "PhD thesis examining the impact of China's non-interference approach on human security in Zimbabwe through a qualitative case study of community displacement caused by lithium mining operations in Mutoko District.",
   },
 ];
