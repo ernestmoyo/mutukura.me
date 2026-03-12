@@ -11,7 +11,7 @@ const pillars = [
   {
     icon: '🔍',
     title: 'Case Study',
-    desc: 'Nyamakope Village, Mutoko District — community displaced by Chinese granite mining operations',
+    desc: 'Mutoko District — community displaced by Chinese granite mining operations',
   },
   {
     icon: '🏭',
@@ -61,7 +61,7 @@ export default function Home() {
           </h1>
 
           <p style={{ fontSize: '18px', color: 'rgba(255,255,255,0.7)', maxWidth: '620px', lineHeight: 1.7, marginBottom: '2.5rem' }}>
-            A qualitative case study examining how Chinese investment in Nyamakope Village
+            A qualitative case study examining how Chinese investment in Mutoko District
             affects community human security across seven dimensions — economic, food, health,
             environmental, personal, communal, and political.
           </p>

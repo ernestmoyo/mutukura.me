@@ -28,7 +28,7 @@ export default function Research() {
             Human Security Implications of China's<br />Non-Interference Principle in Zimbabwe
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: '16px', lineHeight: 1.7 }}>
-            A qualitative case study of Nyamakope Village, Mutoko District
+            A qualitative case study of Mutoko District
           </p>
         </div>
       </section>
@@ -124,7 +124,7 @@ export default function Research() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
               {[
                 { title: 'Paradigm', content: 'Interpretivism / Social Constructivism — meanings and realities are socially constructed; the researcher\'s interpretive role is central.', icon: '🔬' },
-                { title: 'Research Design', content: 'Qualitative, empirical single case study approach (Yin 2009). The case of Nyamakope Village provides bounded, in-depth analysis.', icon: '📐' },
+                { title: 'Research Design', content: 'Qualitative, empirical single case study approach (Yin 2009). The case of Mutoko District provides bounded, in-depth analysis.', icon: '📐' },
                 { title: 'Primary Method', content: 'Key Informant Interviews (KIIs) — 24 participants. Purposive sampling to ensure diversity: diplomats, academics, villagers, officials, civil society.', icon: '🎤' },
                 { title: 'Data Analysis', content: 'NVivo 12 qualitative analysis software. Thematic coding of interview transcripts identifying 9 major themes across 24 informants.', icon: '💻' },
                 { title: 'Analytical Lens', content: 'UNDP Human Security Framework (1994) — seven dimensions applied to map community-level security threats and protection gaps.', icon: '🔭' },
@@ -149,7 +149,7 @@ export default function Research() {
             <p style={{ color: '#334155', fontSize: '15px', marginBottom: '2.5rem', lineHeight: 1.7 }}>
               The UNDP Human Development Report (1994) introduced a people-centred conception of security
               encompassing seven dimensions. This research applies all seven as an analytical lens to the
-              Nyamakope community.
+              Mutoko community.
             </p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1.25rem' }}>
               {[
@@ -176,11 +176,11 @@ export default function Research() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem' }}>
             <div>
               <h2 style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.5rem', color: '#0f172a', marginBottom: '1.5rem' }}>
-                Nyamakope Village
+                Mutoko District
               </h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', fontSize: '14px', color: '#475569', lineHeight: 1.8 }}>
                 <p>
-                  Nyamakope Village is located in Mutoko District, Mashonaland East Province, Zimbabwe.
+                  The case study is situated in Mutoko District, Mashonaland East Province, Zimbabwe.
                   The community consists primarily of smallholder and subsistence farming families with
                   generational ties to the land — their primary source of livelihood and identity.
                 </p>
@@ -204,7 +204,7 @@ export default function Research() {
                 {[
                   { label: 'Company Type', value: 'Chinese-owned, granite extraction (commercial mining)' },
                   { label: 'Operation', value: 'Quarrying and export of granite stone' },
-                  { label: 'Location', value: 'Nyamakope Village, Mutoko District, Mashonaland East' },
+                  { label: 'Location', value: 'Mutoko District, Mashonaland East' },
                   { label: 'Key Incident', value: 'January 2022: forced displacement of farming households' },
                   { label: 'Government Response', value: 'Minimal; ZANU-PF complicity reported by informants' },
                   { label: 'Embassy Response', value: 'Non-interference invoked; declined mediating role' },

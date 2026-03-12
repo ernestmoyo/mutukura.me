@@ -13,12 +13,12 @@ export const publications: Publication[] = [
   },
   {
     id: 'coc-2023',
-    title: "Human Security Implications of China's Non-Interference Principle in Zimbabwe: A Case Study of Nyamakope Village, Mutoko District",
+    title: "Human Security Implications of China's Non-Interference Principle in Zimbabwe: A Case Study of Mutoko District",
     year: 2023,
     type: 'thesis',
     status: 'in-progress',
     tags: ['PhD Research', 'Non-Interference', 'Zimbabwe', 'Jinding Mining'],
     abstract:
-      "PhD thesis examining the impact of China's non-interference approach on human security in Zimbabwe through a qualitative case study of community displacement caused by Jinding Mining Zimbabwe in Nyamakope Village.",
+      "PhD thesis examining the impact of China's non-interference approach on human security in Zimbabwe through a qualitative case study of community displacement caused by Jinding Mining Zimbabwe in Mutoko District.",
   },
 ];

@@ -5,7 +5,7 @@ export const defenseSlides: DefenseSlide[] = [
     id: 1,
     type: 'cover',
     title: "Human Security Implications of China's Non-Interference Principle in Zimbabwe",
-    subtitle: 'A Case Study of Nyamakope Village, Mutoko District',
+    subtitle: 'A Case Study of Mutoko District',
     notes: 'Welcome committee. Thank you for your time. Today I present findings from four years of research into how China\'s foreign policy principles translate into real-world outcomes for Zimbabwean communities.',
   },
   {
@@ -92,7 +92,7 @@ export const defenseSlides: DefenseSlide[] = [
       'Community Security: protection of cultural identity and group membership',
       'Political Security: protection of human rights and freedoms',
     ],
-    notes: 'Each dimension is examined through the interview data. Environmental and Economic emerged as the most severely threatened in Nyamakope.',
+    notes: 'Each dimension is examined through the interview data. Environmental and Economic emerged as the most severely threatened in Mutoko District.',
   },
   {
     id: 8,
@@ -112,9 +112,9 @@ export const defenseSlides: DefenseSlide[] = [
   {
     id: 9,
     type: 'content',
-    title: 'Case Study: Nyamakope Village',
+    title: 'Case Study: Mutoko District',
     body: [
-      'Location: Nyamakope Village, Mutoko District, Mashonaland East Province, Zimbabwe',
+      'Location: Mutoko District, Mashonaland East Province, Zimbabwe',
       'Company: Jinding Mining Zimbabwe (Pvt) Ltd — Chinese-owned granite extraction operation',
       'January 2022: Displacement incident — smallholder farming families forcibly relocated for mining expansion',
       'Community profile: subsistence and small-scale commercial farmers; ancestral land holdings',
@@ -142,7 +142,7 @@ export const defenseSlides: DefenseSlide[] = [
       'Household incomes dropped an estimated 56% following displacement',
       'FOOD: Loss of agricultural land directly caused food insecurity in displaced households',
       'Previously food-secure families became dependent on food assistance',
-      '"We used to grow enough for the whole year. Now we cannot even feed our children for a month" — KII Participant, Nyamakope',
+      '"We used to grow enough for the whole year. Now we cannot even feed our children for a month" — KII Participant, Mutoko District',
     ],
     notes: 'Economic and food security are deeply intertwined in an agricultural community. The loss of land is effectively the loss of everything.',
   },
@@ -246,7 +246,7 @@ export const defenseSlides: DefenseSlide[] = [
     title: 'Conclusion',
     body: [
       "China's non-interference principle, as applied in Zimbabwe, creates a structural governance gap that leaves mining-affected communities without accountability mechanisms",
-      'All seven dimensions of human security were severely threatened in Nyamakope Village following Jinding Mining operations',
+      'All seven dimensions of human security were severely threatened in Mutoko District following Jinding Mining operations',
       'The concept of "structured non-interference" captures how a foreign policy principle translates into community-level vulnerability',
       'Future research: longitudinal study of community recovery; comparative cases across Southern Africa; Chinese domestic CSR frameworks',
     ],

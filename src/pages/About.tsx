@@ -76,21 +76,21 @@ export default function About() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', fontSize: '15px', color: '#475569', lineHeight: 1.8 }}>
               <p>
                 Praise Mutukura is a PhD candidate at RMIT University, Melbourne, specialising in the intersection
-                of Chinese foreign policy and human security in sub-Saharan Africa. Her doctoral research examines
+                of Chinese foreign policy and human security in sub-Saharan Africa. His doctoral research examines
                 how China's principle of non-interference — a cornerstone of its diplomatic doctrine — affects the
                 lived security of communities impacted by Chinese investment in Zimbabwe.
               </p>
               <p>
-                Her research is grounded in a detailed case study of Nyamakope Village in Mutoko District, where
+                His research is grounded in a detailed case study of Mutoko District, where
                 the operations of Jinding Mining Zimbabwe (Pvt) Ltd triggered the forced displacement of smallholder
                 farming families in January 2022. Through 24 Key Informant Interviews with community members,
                 government officials, diplomats, trade unionists, and civil society representatives, Praise
                 reconstructs the human security consequences across all seven UNDP dimensions.
               </p>
               <p>
-                Prior to her doctoral studies, Praise worked as an Executive Research Assistant at the Higherlife
+                Prior to his doctoral studies, Praise worked as an Executive Research Assistant at the Higherlife
                 Foundation, conducting humanitarian research on cholera elimination and Cyclone Idai recovery
-                in Zimbabwe. She holds an MA (Distinction) in Conflict Resolution from Dokuz Eylul University,
+                in Zimbabwe. He holds an MA (Distinction) in Conflict Resolution from Dokuz Eylul University,
                 Turkey, and a BA (First Class Honours) in Politics and Public Management from Midlands State
                 University, Zimbabwe.
               </p>

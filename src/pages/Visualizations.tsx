@@ -53,7 +53,7 @@ export default function Visualizations() {
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: '16px', lineHeight: 1.7, maxWidth: '650px' }}>
             Interactive charts derived from primary KII data (NVivo analysis), secondary economic data on
-            Chinese financial flows to Zimbabwe, and community impact assessments from Nyamakope Village.
+            Chinese financial flows to Zimbabwe, and community impact assessments from Mutoko District.
           </p>
         </div>
       </section>
@@ -74,7 +74,7 @@ export default function Visualizations() {
           <ChartCard
             title="Human Security Threat Severity — 7 Dimensions"
             subtitle="Based on NVivo qualitative coding from 24 Key Informant Interviews | Higher = greater threat"
-            source="Primary KII data — Nyamakope Village fieldwork, 2024"
+            source="Primary KII data — Mutoko District fieldwork, 2024"
           >
             <HumanSecurityRadar />
           </ChartCard>
@@ -98,7 +98,7 @@ export default function Visualizations() {
           </ChartCard>
 
           <ChartCard
-            title="Nyamakope Community: Before vs After Jinding Mining"
+            title="Mutoko Community: Before vs After Jinding Mining"
             subtitle="Key welfare indicators comparing pre- and post-displacement periods"
             source="Primary KII data, community records — Mutoko District, 2024"
             fullWidth
